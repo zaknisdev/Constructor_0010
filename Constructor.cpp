@@ -127,5 +127,8 @@ int main() {
     daftarBuku[0].status();
     daftarPeminjam[0].info();
 
+    // Proses peminjaman buku
+    petugas1.prosesPinjam(&daftarBuku[0], &daftarPeminjam[0]);
+
 
 }
