@@ -37,4 +37,12 @@ class Buku {
     friend class Admin;
 
         };
-         
+
+        class Petugas {
+            private:
+                int id;
+                string nama;
+            
+            
+            };
+            
