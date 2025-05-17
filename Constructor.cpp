@@ -20,3 +20,11 @@ class Buku {
 
     };
     
+
+    class Peminjam {
+        private:
+            int id;
+            string nama;
+            int totalPinjaman;
+        };
+         
