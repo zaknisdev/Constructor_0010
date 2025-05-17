@@ -89,4 +89,10 @@ class Admin {
             }
         }
 };
-    
+
+
+int main() {
+    string judulBuku, penulisBuku, namaPeminjam, namaPetugas;
+    int idPeminjam, idPetugas;
+
+}
