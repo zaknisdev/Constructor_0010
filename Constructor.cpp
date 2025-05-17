@@ -14,5 +14,9 @@ class Buku {
     void status() {
         cout << "Buku: " << judul << " oleh " << penulis << (dipinjam ? " [Dipinjam]" : " [Tersedia]") << endl;
         }
+
+        friend class Petugas;
+    friend class Admin;
+
     };
     
