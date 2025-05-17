@@ -133,6 +133,7 @@ int main() {
      // Admin melihat data peminjam & buku
      admin1.lihatStatistikPeminjam(daftarPeminjam);
      admin1.lihatKetersediaanBuku(daftarBuku);
- 
- 
+
+     // Proses pengembalian buku
+    petugas1.prosesKembali(&daftarBuku[0], &daftarPeminjam[0]);
 }
