@@ -71,4 +71,15 @@ class Petugas {
     }
       
 };
-            
+
+
+class Admin {
+    public:
+        void lihatStatistikPeminjam(const vector<Peminjam>& daftarPeminjam) {
+            cout << "\n[ADMIN] Statistik Peminjam:\n";
+            for (const auto& p : daftarPeminjam) {
+                cout << "- ID: " << p.id << " | Nama: " << p.nama << " | Buku dipinjam: " << p.totalPinjaman << endl;
+            }
+        }
+};
+    
