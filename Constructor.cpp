@@ -26,5 +26,13 @@ class Buku {
             int id;
             string nama;
             int totalPinjaman;
+
+            public:
+    Peminjam(int i, string n) : id(i), nama(n), totalPinjaman(0) {}
+
+    void info() {
+        cout << "ID: " << id << " | Nama: " << nama << " | Buku dipinjam: " << totalPinjaman << endl;
+    }
+
         };
          
