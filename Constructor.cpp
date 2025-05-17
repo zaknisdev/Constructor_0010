@@ -50,6 +50,16 @@ class Petugas {
              cout << "ID Petugas: " << id << " | Nama: " << nama << endl;
             }
             
+        void prosesPinjam(Buku* b, Peminjam* p) {
+                if (!b->dipinjam) {
+                    b->dipinjam = true;
+                    p->totalPinjaman++;
+                    cout << "Petugas '" << nama << "' memproses peminjaman buku '" << b->judul << "' untuk " << p->nama << endl;
+                } else {
+                    cout << "Buku '" << b->judul << "' sudah dipinjam!" << endl;
+                }
+            }
+        
             
-            };
+};
             
