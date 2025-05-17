@@ -33,6 +33,8 @@ class Buku {
     void info() {
         cout << "ID: " << id << " | Nama: " << nama << " | Buku dipinjam: " << totalPinjaman << endl;
     }
+    friend class Petugas;
+    friend class Admin;
 
         };
          
