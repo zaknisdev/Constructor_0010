@@ -136,4 +136,11 @@ int main() {
 
      // Proses pengembalian buku
     petugas1.prosesKembali(&daftarBuku[0], &daftarPeminjam[0]);
+
+    // Admin melihat data peminjam & buku setelah pengembalian
+    admin1.lihatStatistikPeminjam(daftarPeminjam);
+    admin1.lihatKetersediaanBuku(daftarBuku);
+
+    return 0;
+
 }
