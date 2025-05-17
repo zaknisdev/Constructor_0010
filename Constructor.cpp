@@ -130,5 +130,9 @@ int main() {
     // Proses peminjaman buku
     petugas1.prosesPinjam(&daftarBuku[0], &daftarPeminjam[0]);
 
-
+     // Admin melihat data peminjam & buku
+     admin1.lihatStatistikPeminjam(daftarPeminjam);
+     admin1.lihatKetersediaanBuku(daftarBuku);
+ 
+ 
 }
