@@ -94,8 +94,15 @@ class Admin {
 int main() {
     string judulBuku, penulisBuku, namaPeminjam, namaPetugas;
     int idPeminjam, idPetugas;
-    
+
     vector<Buku> daftarBuku;
     vector<Peminjam> daftarPeminjam;
+
+    // Input buku
+    cout << "Masukkan judul buku: ";
+    getline(cin, judulBuku);
+    cout << "Masukkan nama penulis: ";
+    getline(cin, penulisBuku);
+    daftarBuku.push_back(Buku(judulBuku, penulisBuku));
 
 }
