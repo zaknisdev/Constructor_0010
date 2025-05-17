@@ -113,5 +113,11 @@ int main() {
     getline(cin, namaPeminjam);
     daftarPeminjam.push_back(Peminjam(idPeminjam, namaPeminjam));
 
+    // Input petugas
+    cout << "Masukkan ID petugas: ";
+    cin >> idPetugas;
+    cin.ignore();
+    cout << "Masukkan nama petugas: ";
+    getline(cin, namaPetugas);
 
 }
