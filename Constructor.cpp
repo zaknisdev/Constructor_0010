@@ -81,5 +81,12 @@ class Admin {
                 cout << "- ID: " << p.id << " | Nama: " << p.nama << " | Buku dipinjam: " << p.totalPinjaman << endl;
             }
         }
+    
+        void lihatKetersediaanBuku(const vector<Buku>& daftarBuku) {
+            cout << "\n[ADMIN] Ketersediaan Buku:\n";
+            for (const auto& b : daftarBuku) {
+                cout << "- Buku: " << b.judul << " oleh " << b.penulis << (b.dipinjam ? " [Dipinjam]" : " [Tersedia]") << endl;
+            }
+        }
 };
     
