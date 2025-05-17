@@ -38,10 +38,17 @@ class Buku {
 
         };
 
-        class Petugas {
-            private:
-                int id;
+class Petugas {
+     private:
+         int id;
                 string nama;
+            
+    public:
+        Petugas(int i, string n) : id(i), nama(n) {}
+            
+        void info() {
+             cout << "ID Petugas: " << id << " | Nama: " << nama << endl;
+            }
             
             
             };
