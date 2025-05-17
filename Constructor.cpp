@@ -120,4 +120,12 @@ int main() {
     cout << "Masukkan nama petugas: ";
     getline(cin, namaPetugas);
 
+    Petugas petugas1(idPetugas, namaPetugas);
+    Admin admin1;
+
+    petugas1.info();
+    daftarBuku[0].status();
+    daftarPeminjam[0].info();
+
+
 }
