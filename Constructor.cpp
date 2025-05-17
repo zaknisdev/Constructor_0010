@@ -105,4 +105,13 @@ int main() {
     getline(cin, penulisBuku);
     daftarBuku.push_back(Buku(judulBuku, penulisBuku));
 
+    // Input peminjam
+    cout << "Masukkan ID peminjam: ";
+    cin >> idPeminjam;
+    cin.ignore();
+    cout << "Masukkan nama peminjam: ";
+    getline(cin, namaPeminjam);
+    daftarPeminjam.push_back(Peminjam(idPeminjam, namaPeminjam));
+
+
 }
